@@ -26,11 +26,14 @@ z = zeros(num_elems);
 % (i.e. until absolute value of z > 2)
 divergences = zeros(num_elems);
 
-% perform fixed point iteration with every c value
+% perform (20) fixed point iterations with every c value
 for j = 1:20
-    z = z .^ 2 + c;
-    diverged = abs(z) > 2;
-    divergences(diverged & divergences == 0) = j;
+    z = z.^2 + c;  % the mandelbrot iteration formula
+    ny_div = divergences == 0;  % so we don't keep re-filling the already
+                                % diverged c values
+    diverged = abs(z) > 2;      % our divergence criteria
+    divergences(ny_div & diverged) = j;  % update the number of iterations
+                                         % for the diverged c values
 end
 
 % all c values that did not diverge are the mandelbrot set!
