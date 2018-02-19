@@ -10,4 +10,6 @@ i- An introduction to fractals
  In the iteration of z^2, if we take a <= 1 and b <= 1 then after several iterations, the points tend to converge inside the disk; if on the other hand, we have a > 1 and b > 1 then we have a and b diverging after serveral itertions. 
  So the Filled Julia set of z^2 is the unit disk.
  
-ii-
+ii- Generate and plot other examples changing the value of c in the function
+ c = .36 + .1i
+ c = -.123 - .745i
