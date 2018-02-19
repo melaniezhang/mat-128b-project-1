@@ -13,3 +13,4 @@ i- An introduction to fractals
 ii- Generate and plot other examples changing the value of c in the function
  c = .36 + .1i
  c = -.123 - .745i
+ when abs(z) is bigger than 2 there is no graph shown in the grid, thus we conclude that the orbit is unbounded and z0 is not in the set.
