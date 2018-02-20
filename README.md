@@ -15,4 +15,9 @@ ii- Generate and plot other examples changing the value of c in the function
  c = -.123 - .745i
  when abs(z) is bigger than 2 there is no graph shown in the grid, thus we conclude that the orbit is unbounded and z0 is not in the set.
 
-iii- Constructing the Julia Set using Inverse Iteration Method
+iii- Constructing the Julia Set using Inverse Iteration Method using the same value from problem2 
+ c = .36 + .1i
+ c = -.123 - .745i
+ 
+iv- Computing the Fractal dimension
+
