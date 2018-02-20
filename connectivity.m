@@ -1,5 +1,6 @@
 % program that determines whether a Julia set of connected
 % assume divergence when |z|>100
+% phi(z) is connected = 0 is in the filled Julia set 
 phi = inline('z^2-c');
 
 z=0; % initial = 0
