@@ -21,3 +21,9 @@ iii- Constructing the Julia Set using Inverse Iteration Method using the same va
  
 iv- Computing the Fractal dimension
 
+
+
+
+vi- Coloring divergent orbits 
+
+vii- Newton’s method in the complex plane
