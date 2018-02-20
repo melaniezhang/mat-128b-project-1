@@ -21,8 +21,7 @@ iii- Constructing the Julia Set using Inverse Iteration Method using the same va
  
 iv- Computing the Fractal dimension
 
-
-
+v- Determine connectivity of the Julia Set
 
 vi- Coloring divergent orbits 
 
