@@ -31,7 +31,7 @@ FILES: Project1Q2Part1.m Project1Q2Part2.M
  
 ### iv- Computing the Fractal dimension
 
-FILES: fractalDimensionPart1.m fractalDimensionPart2.m
+FILES: diffBoxCount.m cellCount.m fractal_dimension_explanation.txt
 
 ### v- Determine connectivity of the Julia Set
 
