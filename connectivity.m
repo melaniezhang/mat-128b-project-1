@@ -20,5 +20,5 @@ if (iflag1)
     fprintf('\norb(0) does not diverge for Julia set C= %f%f+i\nTherefore the set is connected\n\n', real(c), imag(c));
 end
 
-end
+
 
