@@ -1,3 +1,5 @@
+%% Question 6: Coloring divergent orbits
+
 function color_orbit(c)
 
 % set ranges to our area of interest

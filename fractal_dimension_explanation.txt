@@ -1,3 +1,5 @@
+Question 4: Explanation of the Fractal Dimension
+
 The fractal dimension D of a set A is formally defined as
 
 D = log(N)/log(1/r)
