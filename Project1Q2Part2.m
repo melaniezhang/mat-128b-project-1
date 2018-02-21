@@ -1,4 +1,4 @@
-% Question 2: Generate (and plot) other examples changing the value of c
+%% Question 2: Generate (and plot) other examples changing the value of c
 % in the function ?(z) = z^2 + c. Describe what happens when |z| > 2 or
 % when the initial z0 values are changed.
 % PART 2 ----------------------------------------------------------------

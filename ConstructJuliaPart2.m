@@ -1,17 +1,11 @@
-%% Question 3: iii.- Constructing the Julia set. Remember the Julia set is 
-%the boundary of the Filled Julia set. We here are going to give an algorithm
-% to generate the Julia set. It is called the Inverse Iteration method ... 
-% Use these expressions (omitted) to develop an iteration method function
-% is ? = ± w ? c. For each number you can randomly pick the positive or
-% negative value of the expression for ?.
-% Verify your program using the values you used before.
+%% Question 3: Alternate version that constructs the filled Julia set
 
 % NOTE: THESE FILES GENERATE THE FILLED JULIA SET, CONSTRUCTJULIA.M CONSTRUCTS THE
 % JULIA SET.
 
 
-%% Example of c = -.123 - .745i used in problem 2
 function ConstructJulia(c,iter,num_points) 
+% Example of c = -.123 - .745i used in problem 2
 
 c =-.123 -.745i;
 iter = 15;%change this slightly different from rpevious example

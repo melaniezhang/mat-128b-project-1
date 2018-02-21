@@ -1,4 +1,8 @@
+%% Question 4: Computing the Fractal dimension - Part 2
+
 function cellCount(filepath)
+% This is an implementation of the reticular cell counting method to
+% compute the fractal dimension.
 
 image=imread(filepath);
 image=rgb2gray(image);

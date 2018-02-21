@@ -1,5 +1,6 @@
+%% Question 7: Newton?s method in the complex plane
+
 function newtons(f)
-% Project 1 #7
 % Takes in a symbolic function as input, and performs Newton's
 % method on it. Prints out color map of how many iterations each initial z
 % took to converge.

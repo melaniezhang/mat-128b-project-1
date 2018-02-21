@@ -1,4 +1,4 @@
-% Question 1: Implement program in page 100 to generate the Filled Julia set
+%% Question 1: Implement program in page 100 to generate the Filled Julia set
 % in Figure 4.13 and to convince yourself that the Filled Julia set of of
 % ?(z) = z^2 is the unit disk (denoted by D^2).
 
