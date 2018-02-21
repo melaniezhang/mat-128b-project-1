@@ -11,7 +11,7 @@ while kount < 100 && iflag1
     kount = kount + 1;
     zk = zk.^2+c; % fixed point iteration
     if abs(zk) > 100
-        fprintf('\norb(0) for Julia set c=%f%+fi\ diverges\n Therefore the set is disconnected\n\n', real(c), imag(c));
+        fprintf('\norb(0) for Julia set c=%f%+fi diverges\n Therefore the set is disconnected\n\n', real(c), imag(c));
         iflag1 = 0;
     end % divergence
 end;
