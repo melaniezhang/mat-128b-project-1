@@ -1,4 +1,4 @@
-%% Question 7: Newton?s method in the complex plane
+%% Question 7: Newton's method in the complex plane
 
 function newtons(f)
 % Takes in a symbolic function as input, and performs Newton's
