@@ -1,3 +1,8 @@
+% Question 2: Generate (and plot) other examples changing the value of c
+% in the function ?(z) = z^2 + c. Describe what happens when |z| > 2 or
+% when the initial z0 values are changed.
+% PART 2 ----------------------------------------------------------------
+
 phi = inline('z^2-.123-.745*1i');
 fixpt1 = (1+sqrt(6))/2; %those are two fixed points
 fixpt2 = (1-sqrt(6))/2;
