@@ -4,7 +4,7 @@ function connectivity(c)
 z=0; % initial = 0
 zk=z;
 
-iflag1 = 0; % iflag1 and iflag2 count the number of iterations
+iflag1 = 1; % iflag1 and iflag2 count the number of iterations
 kount = 0; % kount is the total number of iterations.
 while kount < 100 && iflag1
     kount = kount + 1;
