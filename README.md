@@ -27,6 +27,8 @@ FILES: Project1Q2Part1.m Project1Q2Part2.M
  c = .36 + .1i
  c = -.123 - .745i
  
+ FILES: ConstructJuliaPart1.m ConstructJuliaPart2.m ConstructJulia.m
+ 
 ### iv- Computing the Fractal dimension
 
 FILES: fractalDimensionPart1.m fractalDimensionPart2.m
