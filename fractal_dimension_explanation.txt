@@ -5,4 +5,6 @@ D = log(N)/log(1/r)
 where N = the total number of distinct copies similar to A, and
 1/r = the ratio A is scaled by down.
 
-In other words, fractal dimension is a ratio indicating how a pattern's detail changes with the scale it's measured with. For example, a square has fractal dimension 2: if we break up a square into N^2 identical parts, each part will be 1/N the size of the original square, meaning r=1/N and giving D = log(N^2)/log(N) = 2.
+In other words, fractal dimension is a ratio indicating how a pattern's detail changes with the scale it's measured with.
+For example, a square has fractal dimension 2: if we break up a square into N^2 identical parts,
+ each part will be 1/N the size of the original square, meaning r=1/N and giving D = log(N^2)/log(N) = 2.
