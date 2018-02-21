@@ -1,0 +1,22 @@
+>> connectivity(-.123 -.745i)
+
+orb(0) does not diverge for Julia set C= -0.123000-0.745000+i
+Therefore the set is connected
+
+>> connectivity( .36 + .1i)
+
+orb(0) does not diverge for Julia set C= 0.3600000.100000+i
+Therefore the set is connected
+
+>> connectivity(0.4 + 0.3i)
+
+orb(0) for Julia set c=0.400000+0.300000i diverges
+ Therefore the set is disconnected
+
+
+% Here are some examples of testing if the Julia set the connected. 
+% Given that orb(0) is bounded and included in the filled Julia set with some complex number c, 
+% then we know that it is connected.
+
+% Here are two examples in which the set is connected where c= -0.123000-0.745000+i and c=0.3600000.100000+i. 
+% Third example with c=0.400000+0.300000i diverges and the set is disconnected.
