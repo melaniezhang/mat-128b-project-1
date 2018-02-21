@@ -1,0 +1,30 @@
+% Question 3: iii.- Constructing the Julia set. Remember the Julia set is 
+%the boundary of the
+Filled Julia set. We here are going to give an algorithm to generate the Julia set.
+It is called the Inverse Iteration method: Given a complex number z = x + iy =
+r(cos?+sin?)withr= x2+y2 and?=tan?1y whenx>0(adding?ifx<0) ?  x
+and z = r cos ? + r sin ? . Use these expressions to develop an iteration method 2?2
+whose function is ? = ± w ? c. For each number you can randomly pick the positive or negative value of the expression for ?. Verify your program using the values you used before.
+
+
+function ConstructJulia(c,num_points)
+pick = round(rand);
+if pick
+    julia_set = 0.5*(1 + sqrt(1-4*c));
+else
+    julia_set = 0.5*(1 - sqrt(1-4*c));
+end
+for k = 1:num_points
+    pick = round(rand);
+    if pick
+        next = sqrt(julia_set(end) - c); 
+    else
+        next = -sqrt(julia_set(end) - c);
+    end
+    julia_set = [julia_set; next];
+end
+
+figure
+plot(julia_set, '.')
+
+end
