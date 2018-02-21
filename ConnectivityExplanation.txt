@@ -1,3 +1,5 @@
+Question 5: Connectivity Explanation
+
 >> connectivity(-.123 -.745i)
 
 orb(0) does not diverge for Julia set C= -0.123000-0.745000+i

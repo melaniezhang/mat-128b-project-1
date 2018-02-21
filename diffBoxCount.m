@@ -1,4 +1,8 @@
+%% Question 4: Computing the Fractal dimension - Part 1
+
 function diffBoxCount(filepath)
+% This is an implementation of the differential box counting method to
+% compute the fractal dimension.
 
 image=imread(filepath);
 image=rgb2gray(image);

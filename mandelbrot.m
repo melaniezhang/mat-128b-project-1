@@ -1,5 +1,6 @@
+%% Question 8: The Mandelbrot Set
+
 function m_set = mandelbrot()
-% Project 1 #8
 % Generates elements of the mandelbrot set, spaced across 1000*1000
 % elements ranging from from -2-1i to 1+1i
 % Also plots these elements, colored according to number of iterations

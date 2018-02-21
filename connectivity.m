@@ -1,3 +1,5 @@
+%% Question 5: Connectivity of the Julia set
+
 function connectivity(c)
 % program that determines whether a Julia set of connected
 % assume divergence when |z|>100
