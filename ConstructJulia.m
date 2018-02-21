@@ -1,3 +1,5 @@
+%% Question 3: Constructing the Julia set
+
 function ConstructJulia(c,num_points, iterations)
 
 % final julia set
